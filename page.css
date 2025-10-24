@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(117, 101, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: darkblack;
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    gap: 5px;
+    justify-content: end;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 7px;
+    justify-content: end;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-family: fantasy;
+    font-size: 18px;
+    border-radius: 7px;
+    padding-right: 7px;
+    transition: 0.4s ease-in-out;
+    margin-left: 10px;
+    justify-content: end;
+}
+nav ul li a:hover{
+    background-color: gold;
+}
