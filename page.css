@@ -12,6 +12,7 @@ nav{
     text-align: center;
     margin-bottom: 20px;
     justify-content: end;
+    color: black;
 }
 nav ol{
     padding: 0;
@@ -26,10 +27,13 @@ ol li{
     list-style: none;
     margin: 0 7px;
     justify-content: end;
+    color: purple;
+}
+li a{
+    color: black;
 }
 nav ol li a{
     text-decoration: none;
-    color: blue;
     font-family: fantasy;
     font-size: 18px;
     border-radius: 7px;
@@ -40,7 +44,7 @@ nav ol li a{
 }
 nav ol li a:hover{
     background-color: lightcoral;
-    color: white;
+    color: blue;
     padding: 5px;
     border-radius: 7px;
 }
@@ -113,7 +117,7 @@ a:hover{
     padding: 20px;
     margin-bottom: 0;
 }
-h3{
+h4{
     font-size: 18px;
     color: gold;
     margin-bottom: 15px;
@@ -144,11 +148,12 @@ h3{
     color: white;
     font-size: 14px;
     text-align: center;
+    border-radius: 2px solid white;
 }
 .last p{
     font-size: 16px;
     font-weight: bold;
-    border-radius: 2px dotted white;
+    border-radius: 2px solid white;
 }
 .contact p{
     color: white;
