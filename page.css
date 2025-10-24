@@ -12,7 +12,6 @@ nav{
     text-align: center;
     margin-bottom: 20px;
     justify-content: end;
-    color: black;
 }
 nav ol{
     padding: 0;
@@ -27,10 +26,6 @@ ol li{
     list-style: none;
     margin: 0 7px;
     justify-content: end;
-    color: purple;
-}
-li a{
-    color: black;
 }
 nav ol li a{
     text-decoration: none;
@@ -41,6 +36,9 @@ nav ol li a{
     transition: 0.2s ease-in-out;
     margin-left: 10px;
     justify-content: end;
+}
+nav ol li a{
+     color: black;
 }
 nav ol li a:hover{
     background-color: lightcoral;
