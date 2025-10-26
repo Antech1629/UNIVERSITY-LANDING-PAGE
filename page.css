@@ -74,6 +74,7 @@ a{
     border-radius: 5px;
     font-size: 18px;
     margin-top: 10px;
+    color: rgb(6, 68, 68);
 }
 a:visited{
     color: lightcyan;
@@ -136,7 +137,7 @@ h4{
 }
 .media li{
     list-style: none;
-    color: white;
+    color: rgb(6, 68, 68);
 }
 .media li a{
     text-decoration: none;
