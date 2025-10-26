@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLY COURSES</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <input type="text" id="name" placeholder="full name" required>
+            <input type="text" id="county" placeholder="county">
+            <input type="tel" id="phone number" placeholder="enter your phone number" required>
+            <input type="number" min="18" max="100" id="age" placeholder="age" required>
+            <input type="date" id="date" placeholder="DOB" min="01-01-2005" required>
+            <select id="coures" aria-required="true">
+                <option value="" disabled selected>select the level of interest</option>
+                <option value="certificate">Certificate</option>
+            <option value="diploma">Diploma</option>
+            <option value="degree">Degree</option>
+            <option value="masters">Masters</option>
+            </select>
+            <input type="text" id="course name" placeholder="Enter The Course" aria-required="true">
+            <select id="mode of study" aria-required="true">
+                <option value="" disabled selected>Choose you Preffered Mode Of Study</option>
+                <option value="Full Time">Full Time</option>
+                <option value="part time">Part Time</option>
+                <option value="virtually">Virtually</option>
+                <option value="specific time">Specified Time</option>
+            </select>
+            <label for="passport">Passport</label>
+            <input type="file" id="passport" aria-required="true">
+            <label for="cv">Cv</label>
+            <input type="file" id="cv" aria-required="true">
+            <button type="submit">Apply</button>
+            <footer>
+               <p>&copy;ANTECH UNIVERSITY</p>
+               <p>2025 ALL RIGHTS RESERVED</p>
+            </footer>
+        </form>
+    </div>
+</body>
+</html>
