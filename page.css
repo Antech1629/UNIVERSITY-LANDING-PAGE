@@ -50,6 +50,9 @@ img{
     width: 100px;
     height: 100px;
     border-radius: 50%20%/10%40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
