@@ -1,0 +1,36 @@
+body{
+    font-family: monospace;
+    background-color: aqua;
+    padding: 5px;
+    display: flex;
+}
+.container{
+    width: 100%;
+}
+h2{
+    text-decoration: underline;
+    color: crimson;
+    font-family: fantasy;
+    font-size: 35px;
+}
+h3{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 25px;
+    text-decoration: dotted;
+}
+li{
+    font-size: 20px;
+}
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+marquee{
+    font-style: italic;
+    font-size: 15px;
+    color: whitesmoke;
+}
