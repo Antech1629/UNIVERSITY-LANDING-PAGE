@@ -77,13 +77,13 @@ a{
     color: rgb(6, 68, 68);
 }
 a:visited{
-    color: lightcyan;
+    color: lightcoral;
 }
 a:focus{
     color: lightsalmon;
 }
 a:hover{
-    color: grey;
+    color: gold;
 }
 #about{
     border-radius: 10px;
