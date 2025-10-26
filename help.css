@@ -1,0 +1,40 @@
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    height: 200px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: brown;
+    font-family: fantasy;
+}
+h3{
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+p{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: rgb(6, 68, 68);
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    color: gold;
+}
+footer{
+    text-align: center;
+    color: chocolate;
+}
+footer p{
+    color: chocolate;
+    font-family: cursive;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
