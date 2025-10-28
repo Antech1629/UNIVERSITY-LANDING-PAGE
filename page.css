@@ -38,7 +38,7 @@ nav ol li a{
     justify-content: end;
 }
 nav ol li a{
-     color: black;
+     color: lightcyan;
 }
 nav ol li a:hover{
     background-color: lightcoral;
