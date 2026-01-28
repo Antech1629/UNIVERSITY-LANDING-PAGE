@@ -3,40 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APPLY COURSES</title>
+    <title>Apply - Antech University</title>
     <link rel="stylesheet" href="apply.css">
 </head>
 <body>
+    <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+        <img src="IMG-20250620-WA0121.jpg" alt="Antech University Logo" class="logo" style="width: 80px; height: 80px; border-radius: 50%; margin-right: 20px; border: 3px solid white;" width="100px" height="100px">
+        <nav style="flex-grow: 1; text-align: right;">
+            <ol style="padding: 0; list-style: none; margin: 0; gap: 15px; display: flex; justify-content: flex-end; flex-wrap: wrap;">
+                <li style="display: inline; list-style: none; margin: 0;"><a href="index.html" style="text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; border-radius: 25px; padding: 8px 20px; color: white; display: inline-block; transition: all 0.3s ease;">Home</a></li>
+                <li style="display: inline; list-style: none; margin: 0;"><a href="about.html" style="text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; border-radius: 25px; padding: 8px 20px; color: white; display: inline-block; transition: all 0.3s ease;">About us</a></li>
+                <li style="display: inline; list-style: none; margin: 0;"><a href="courses.html" style="text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; border-radius: 25px; padding: 8px 20px; color: white; display: inline-block; transition: all 0.3s ease;">Courses</a></li>
+                <li style="display: inline; list-style: none; margin: 0;"><a href="admission.html" style="text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; border-radius: 25px; padding: 8px 20px; color: white; display: inline-block; transition: all 0.3s ease;">Admission</a></li>
+                <li style="display: inline; list-style: none; margin: 0;"><a href="contact.html" style="text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; border-radius: 25px; padding: 8px 20px; color: white; display: inline-block; transition: all 0.3s ease;">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
     <div class="container">
+        <img src="IMG-20250620-WA0121.jpg" alt="Antech University Logo">
+        <h3>Application Form</h3>
         <form action="">
-            <input type="text" id="name" placeholder="full name" required>
-            <input type="text" id="county" placeholder="county">
-            <input type="tel" id="phone number" placeholder="enter your phone number" required>
-            <input type="number" min="18" max="100" id="age" placeholder="age" required>
-            <input type="date" id="date" placeholder="DOB" min="01-01-2005" required>
-            <select id="coures" aria-required="true">
-                <option value="" disabled selected>select the level of interest</option>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="text" id="county" placeholder="County">
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            <input type="number" min="18" max="100" id="age" placeholder="Age" required>
+            <input type="date" id="date" placeholder="Date of Birth" required>
+            <select id="level" aria-required="true">
+                <option value="" disabled selected>Select the level of interest</option>
                 <option value="certificate">Certificate</option>
-            <option value="diploma">Diploma</option>
-            <option value="degree">Degree</option>
-            <option value="masters">Masters</option>
+                <option value="diploma">Diploma</option>
+                <option value="degree">Degree</option>
+                <option value="masters">Masters</option>
             </select>
-            <input type="text" id="course name" placeholder="Enter The Course" aria-required="true">
-            <select id="mode of study" aria-required="true">
-                <option value="" disabled selected>Choose you Preffered Mode Of Study</option>
-                <option value="Full Time">Full Time</option>
-                <option value="part time">Part Time</option>
+            <input type="text" id="course-name" placeholder="Enter the Course" aria-required="true">
+            <select id="mode-of-study" aria-required="true">
+                <option value="" disabled selected>Choose your Preferred Mode of Study</option>
+                <option value="full-time">Full Time</option>
+                <option value="part-time">Part Time</option>
                 <option value="virtually">Virtually</option>
-                <option value="specific time">Specified Time</option>
+                <option value="specified-time">Specified Time</option>
             </select>
-            <label for="passport">Passport</label>
+            <label for="passport" style="margin-top: 15px; font-weight: 600;">Upload Passport Photo</label>
             <input type="file" id="passport" aria-required="true">
-            <label for="cv">Cv</label>
+            <label for="cv" style="margin-top: 15px; font-weight: 600;">Upload CV</label>
             <input type="file" id="cv" aria-required="true">
-            <button type="submit">Apply</button>
-            <footer>
-               <p>&copy;ANTECH UNIVERSITY</p>
-               <p>2025 ALL RIGHTS RESERVED</p>
+            <button type="submit">Submit Application</button>
+            <footer style="text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
+               <p style="color: #666; font-size: 14px; margin: 10px 0;">&copy; 2025 Antech University. All rights reserved.</p>
             </footer>
         </form>
     </div>
