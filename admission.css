@@ -1,34 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
 body{
-    background-color: rgb(139, 96, 43);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 .container{
     width: 100%;
-    background-color: rgb(5, 56, 39);
-    height: 100%;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    padding: 40px 20px;
+    animation: fadeIn 0.6s ease-in;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 h2{
-    font-family: fantasy;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    color: crimson;
+    font-size: 42px;
+    color: #667eea;
+    margin-bottom: 40px;
+    animation: fadeInDown 0.6s ease;
+    font-weight: 700;
 }
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 h3{
-    color: cadetblue;
-    font-family: cursive;
-    text-decoration: underline;
-    font-size: 27px;
-    margin-left: 3px;
+    color: #764ba2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
+
+div.certificate, div.diploma, div.degree, div.masters {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    animation: slideInUp 0.6s ease;
+    border-left: 5px solid #667eea;
+    transition: all 0.3s ease;
+}
+
+div.certificate:hover, div.diploma:hover, div.degree:hover, div.masters:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+}
+
 li{
-    font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    list-style-position: inside;
 }
+
 .footer{
     text-align: center;
-    color: chocolate;
-    font-family: cursive;
-    font-weight: bolder;
-    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    animation: slideInUp 0.8s ease;
+}
+
+.footer p {
+    margin: 0;
+    color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    li {
+        font-size: 14px;
+    }
+    .container {
+        padding: 20px 10px;
+    }
+    div.certificate, div.diploma, div.degree, div.masters {
+        padding: 15px;
+    }
 }
