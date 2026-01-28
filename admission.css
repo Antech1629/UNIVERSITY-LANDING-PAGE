@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
 
 body{
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e8f4f8 0%, #f5f7fa 100%);
     display: flex;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -9,7 +9,7 @@ body{
 }
 .container{
     width: 100%;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
     min-height: 100vh;
     padding: 40px 20px;
     animation: fadeIn 0.6s ease-in;
@@ -26,22 +26,11 @@ body{
     }
 }
 
-@keyframes slideInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 h2{
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 42px;
-    color: #667eea;
+    color: #1a365d;
     margin-bottom: 40px;
     animation: fadeInDown 0.6s ease;
     font-weight: 700;
@@ -59,7 +48,7 @@ h2{
 }
 
 h3{
-    color: #764ba2;
+    color: #2c5282;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     margin-left: 0;
@@ -71,22 +60,23 @@ div.certificate, div.diploma, div.degree, div.masters {
     background: white;
     padding: 25px;
     margin-bottom: 20px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(26, 54, 93, 0.08);
     animation: slideInUp 0.6s ease;
-    border-left: 5px solid #667eea;
+    border-left: 5px solid #1abc9c;
     transition: all 0.3s ease;
 }
 
 div.certificate:hover, div.diploma:hover, div.degree:hover, div.masters:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+    box-shadow: 0 8px 25px rgba(26, 54, 93, 0.15);
+    border-left-color: #e8b923;
 }
 
 li{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: #555;
     margin-bottom: 10px;
     list-style-position: inside;
 }
@@ -97,16 +87,27 @@ li{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
     padding: 30px 20px;
     margin-top: 40px;
-    border-radius: 15px;
+    border-radius: 12px;
     animation: slideInUp 0.8s ease;
 }
 
 .footer p {
     margin: 0;
-    color: #ff6b6b;
+    color: #e8b923;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 768px) {
